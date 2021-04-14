@@ -1,0 +1,203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/86bdb84c/
+BIGGEST_WINDOW	Grains.h	/^#define BIGGEST_WINDOW /;"	d
+End	FileSection.h	/^	End$/;"	e	enum:RangeHandleSide
+Envelopes	Grains.cpp	/^namespace Envelopes$/;"	n	file:
+FILE_PROCCESSING	PluginProcessor.cpp	/^#define FILE_PROCCESSING$/;"	d	file:
+FileView	FileSection.cpp	/^FileView::FileView(SharedFileBuffer* buf, juce::AudioProcessorValueTreeState& vts) : handle(vts,/;"	f	class:FileView
+FileView	FileSection.h	/^class FileView : public juce::Component, public juce::ActionBroadcaster, public juce::ActionList/;"	c
+Grain	Grains.h	/^struct Grain$/;"	s
+Grain	copy/Grains.h	/^struct Grain$/;"	s
+GrainAmount	PluginEditor.h	/^class GrainAmount : public juce::Slider$/;"	c
+GrainPool	Grains.h	/^struct GrainPool$/;"	s
+GrainPool	copy/Grains.h	/^struct GrainPool$/;"	s
+GrainProperties	Grains.h	/^enum GrainProperties$/;"	g
+GrainQueue	Grains.h	/^	GrainQueue() : activeGrains(0), lastActive(-1){}$/;"	f	struct:GrainQueue
+GrainQueue	Grains.h	/^struct GrainQueue$/;"	s
+GrainScheduler	Grains.cpp	/^GrainScheduler::GrainScheduler() : rand(1)$/;"	f	class:GrainScheduler
+GrainScheduler	Grains.h	/^struct GrainScheduler$/;"	s
+GrainScheduler	copy/Grains.cpp	/^GrainScheduler::GrainScheduler() : rand(1)$/;"	f	class:GrainScheduler
+GrainScheduler	copy/Grains.h	/^struct GrainScheduler$/;"	s
+GrainsAudioProcessor	PluginProcessor.cpp	/^GrainsAudioProcessor::GrainsAudioProcessor()$/;"	f	class:GrainsAudioProcessor
+GrainsAudioProcessor	PluginProcessor.h	/^class GrainsAudioProcessor  : public juce::AudioProcessor$/;"	c
+GrainsAudioProcessorEditor	PluginEditor.cpp	/^GrainsAudioProcessorEditor::GrainsAudioProcessorEditor (GrainsAudioProcessor& p, $/;"	f	class:GrainsAudioProcessorEditor
+GrainsAudioProcessorEditor	PluginEditor.h	/^class GrainsAudioProcessorEditor  : public juce::AudioProcessorEditor, juce::ActionListener$/;"	c
+MAX_GRAINS	Grains.h	/^#define MAX_GRAINS /;"	d
+MAX_SAMPLES	FileSection.h	/^#define MAX_SAMPLES /;"	d
+MAX_SAMPLES	Grains.cpp	/^#define MAX_SAMPLES /;"	d	file:
+None	FileSection.h	/^	None,$/;"	e	enum:RangeHandleSide
+ParameterMaker	Grains.h	/^	explicit ParameterMaker(juce::AudioProcessorValueTreeState::ParameterLayout& layoutToUse) : lay/;"	f	struct:ParameterMaker
+ParameterMaker	Grains.h	/^struct ParameterMaker$/;"	s
+RangeHandle	FileSection.cpp	/^RangeHandle::RangeHandle(juce::AudioProcessorValueTreeState& vts, SharedFileBuffer* buf) : fileB/;"	f	class:RangeHandle
+RangeHandle	FileSection.h	/^struct RangeHandle : public juce::Component, public juce::ActionBroadcaster$/;"	s
+RangeHandleSide	FileSection.h	/^enum RangeHandleSide$/;"	g
+SMALLEST_WINDOW	Grains.h	/^#define SMALLEST_WINDOW /;"	d
+SharedFileBuffer	shared.h	/^struct SharedFileBuffer$/;"	s
+Start	FileSection.h	/^	Start,$/;"	e	enum:RangeHandleSide
+__anon40b789ac0102	PluginEditor.cpp	/^	{$/;"	f	function:GrainsAudioProcessorEditor::GrainsAudioProcessorEditor	file:
+__anon546e6ada0102	Grains.cpp	/^		{$/;"	f	function:GrainPool::setParamters	file:
+__anon546e6ada0202	Grains.cpp	/^		{$/;"	f	function:GrainPool::setParamters	file:
+__anone4bfdf2b0102	FileSection.cpp	/^	{$/;"	f	file:
+__anone4bfdf2b0202	FileSection.cpp	/^	{$/;"	f	file:
+acceptsMidi	PluginProcessor.cpp	/^bool GrainsAudioProcessor::acceptsMidi() const$/;"	f	class:GrainsAudioProcessor	typeref:typename:bool
+actionListenerCallback	FileSection.cpp	/^void FileView::actionListenerCallback(const juce::String& message)$/;"	f	class:FileView	typeref:typename:void
+actionListenerCallback	PluginEditor.cpp	/^void GrainsAudioProcessorEditor::actionListenerCallback(const juce::String& message)$/;"	f	class:GrainsAudioProcessorEditor	typeref:typename:void
+activateGrain	Grains.cpp	/^void GrainPool::activateGrain()$/;"	f	class:GrainPool	typeref:typename:void
+activateGrain	copy/Grains.cpp	/^void GrainPool::activateGrain()$/;"	f	class:GrainPool	typeref:typename:void
+activateGrain	copy/Grains.cpp	/^void GrainPool::activateGrain(int index)$/;"	f	class:GrainPool	typeref:typename:void
+active	Grains.h	/^	active = 1,$/;"	e	enum:GrainProperties
+active	copy/Grains.h	/^	bool active = false;$/;"	m	struct:Grain	typeref:typename:bool
+activeGrains	Grains.h	/^	int activeGrains;$/;"	m	struct:GrainQueue	typeref:typename:int
+audioProcessor	PluginEditor.h	/^    GrainsAudioProcessor& audioProcessor;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:GrainsAudioProcessor &
+bufSize	Grains.h	/^	int bufSize;$/;"	m	struct:GrainPool	typeref:typename:int
+buffer	Grains.h	/^	juce::AudioSampleBuffer* buffer;$/;"	m	struct:GrainPool	typeref:typename:juce::AudioSampleBuffer *
+buffer	shared.h	/^	juce::AudioSampleBuffer buffer;$/;"	m	struct:SharedFileBuffer	typeref:typename:juce::AudioSampleBuffer
+button	PluginEditor.h	/^	juce::TextButton button;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:juce::TextButton
+calculateEnvelopeParabolic	Grains.cpp	/^	float calculateEnvelopeParabolic(int currentSample, int numSamples)$/;"	f	namespace:Envelopes	typeref:typename:float
+calculateEnvelopeParabolic	Grains.cpp	/^void GrainPool::calculateEnvelopeParabolic()$/;"	f	class:GrainPool	typeref:typename:void
+calculateEnvelopeParabolic	copy/Grains.cpp	/^void GrainPool::calculateEnvelopeParabolic()$/;"	f	class:GrainPool	typeref:typename:void
+calculateEnvelopeParabolicArray	Grains.cpp	/^	void calculateEnvelopeParabolicArray(std::vector<float>& write)$/;"	f	namespace:Envelopes	typeref:typename:void
+calculateEnvelopeRaisedCosine	copy/Grains.cpp	/^void GrainPool::calculateEnvelopeRaisedCosine()$/;"	f	class:GrainPool	typeref:typename:void
+changeProgramName	PluginProcessor.cpp	/^void GrainsAudioProcessor::changeProgramName (int index, const juce::String& newName)$/;"	f	class:GrainsAudioProcessor	typeref:typename:void
+contexts	FileSection.h	/^	} contexts[2];$/;"	m	struct:RangeHandle	typeref:struct:RangeHandle::grabContext[2]
+createEditor	PluginProcessor.cpp	/^juce::AudioProcessorEditor* GrainsAudioProcessor::createEditor()$/;"	f	class:GrainsAudioProcessor	typeref:typename:juce::AudioProcessorEditor *
+createPluginFilter	PluginProcessor.cpp	/^juce::AudioProcessor* JUCE_CALLTYPE createPluginFilter()$/;"	f	typeref:typename:juce::AudioProcessor * JUCE_CALLTYPE
+data	Grains.h	/^	std::array<Grain, MAX_GRAINS> data;$/;"	m	struct:GrainQueue	typeref:typename:std::array<Grain,MAX_GRAINS>
+deactivate	Grains.h	/^	void deactivate(int index)$/;"	f	struct:GrainQueue	typeref:typename:void
+drawFile	FileSection.cpp	/^void FileView::drawFile()$/;"	f	class:FileView	typeref:typename:void
+drawn	FileSection.h	/^	bool drawn = false;$/;"	m	class:FileView	typeref:typename:bool
+end	Grains.h	/^	int end;$/;"	m	struct:GrainPool	typeref:typename:int
+endAtt	FileSection.h	/^	juce::ParameterAttachment endAtt;$/;"	m	struct:RangeHandle	typeref:typename:juce::ParameterAttachment
+endingGrain	Grains.h	/^	int endingGrain;$/;"	m	struct:GrainPool	typeref:typename:int
+env	Grains.h	/^	std::vector<float> env;$/;"	m	struct:GrainPool	typeref:typename:std::vector<float>
+envelope	copy/Grains.h	/^	std::vector<float> envelope;$/;"	m	struct:GrainPool	typeref:typename:std::vector<float>
+envelopeFunction	Grains.h	/^	float (*envelopeFunction)(int, int) = nullptr;$/;"	m	struct:GrainPool	typeref:typename:float (*)(int,int)
+envelopeSetup	Grains.cpp	/^void GrainPool::envelopeSetup()$/;"	f	class:GrainPool	typeref:typename:void
+fileBuffer	FileSection.h	/^	SharedFileBuffer* fileBuffer;$/;"	m	class:FileView	typeref:typename:SharedFileBuffer *
+fileBuffer	FileSection.h	/^	SharedFileBuffer* fileBuffer;$/;"	m	struct:RangeHandle	typeref:typename:SharedFileBuffer *
+fileBuffer	PluginProcessor.h	/^	SharedFileBuffer fileBuffer;$/;"	m	class:GrainsAudioProcessor	typeref:typename:SharedFileBuffer
+fileBufferRef	PluginEditor.h	/^	SharedFileBuffer *fileBufferRef;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:SharedFileBuffer *
+fileImage	FileSection.cpp	/^static juce::Image fileImage(juce::Image::PixelFormat::ARGB, 600, 250, true);$/;"	v	typeref:typename:juce::Image	file:
+fileView	PluginEditor.h	/^	FileView fileView;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:FileView
+firstTime	FileSection.h	/^	bool firstTime = true;$/;"	m	class:FileView	typeref:typename:bool
+formatManager	PluginEditor.h	/^	juce::AudioFormatManager formatManager;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:juce::AudioFormatManager
+getCurrentProgram	PluginProcessor.cpp	/^int GrainsAudioProcessor::getCurrentProgram()$/;"	f	class:GrainsAudioProcessor	typeref:typename:int
+getName	PluginProcessor.cpp	/^const juce::String GrainsAudioProcessor::getName() const$/;"	f	class:GrainsAudioProcessor	typeref:typename:const juce::String
+getNumPrograms	PluginProcessor.cpp	/^int GrainsAudioProcessor::getNumPrograms()$/;"	f	class:GrainsAudioProcessor	typeref:typename:int
+getProgramName	PluginProcessor.cpp	/^const juce::String GrainsAudioProcessor::getProgramName (int index)$/;"	f	class:GrainsAudioProcessor	typeref:typename:const juce::String
+getStateInformation	PluginProcessor.cpp	/^void GrainsAudioProcessor::getStateInformation (juce::MemoryBlock& destData)$/;"	f	class:GrainsAudioProcessor	typeref:typename:void
+getTailLengthSeconds	PluginProcessor.cpp	/^double GrainsAudioProcessor::getTailLengthSeconds() const$/;"	f	class:GrainsAudioProcessor	typeref:typename:double
+getTextFromValue	PluginEditor.h	/^	virtual juce::String getTextFromValue(double value) override$/;"	f	class:GrainAmount	typeref:typename:juce::String
+getValueFromText	PluginEditor.h	/^	virtual double getValueFromText(const juce::String& value) override$/;"	f	class:GrainAmount	typeref:typename:double
+grabArea	FileSection.h	/^	juce::Rectangle<int> grabArea[2];$/;"	m	struct:RangeHandle	typeref:typename:juce::Rectangle<int>[2]
+grabContext	FileSection.h	/^	struct grabContext$/;"	s	struct:RangeHandle
+grabbed	FileSection.h	/^	RangeHandleSide grabbed = RangeHandleSide::None;$/;"	m	class:FileView	typeref:typename:RangeHandleSide
+grabbed	FileSection.h	/^	RangeHandleSide grabbed = RangeHandleSide::None;$/;"	m	struct:RangeHandle	typeref:typename:RangeHandleSide
+grainBuffer	PluginProcessor.h	/^	juce::AudioSampleBuffer grainBuffer;$/;"	m	class:GrainsAudioProcessor	typeref:typename:juce::AudioSampleBuffer
+grainIdx	Grains.h	/^	int grainIdx = 0;$/;"	m	struct:GrainPool	typeref:typename:int
+grainIdx	copy/Grains.h	/^	int grainIdx = 0;$/;"	m	struct:GrainPool	typeref:typename:int
+grainSize	PluginEditor.h	/^	juce::Slider grainSize;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:juce::Slider
+grainSize	copy/Grains.h	/^	int grainSize;$/;"	m	struct:GrainPool	typeref:typename:int
+grainSizeAtt	PluginEditor.h	/^	std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> grainSizeAtt;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment>
+grainWindow	Grains.h	/^	juce::AudioParameterFloat* grainWindow;$/;"	m	struct:GrainPool	typeref:typename:juce::AudioParameterFloat *
+grainWindow	copy/Grains.h	/^	float grainWindow = 0.05f;$/;"	m	struct:GrainPool	typeref:typename:float
+grains	Grains.h	/^	std::vector<GrainQueue> grains;$/;"	m	struct:GrainPool	typeref:typename:std::vector<GrainQueue>
+grains	copy/Grains.h	/^	std::vector<Grain> grains[2];$/;"	m	struct:GrainPool	typeref:typename:std::vector<Grain>[2]
+handle	FileSection.h	/^	RangeHandle handle;$/;"	m	class:FileView	typeref:typename:RangeHandle
+hasEditor	PluginProcessor.cpp	/^bool GrainsAudioProcessor::hasEditor() const$/;"	f	class:GrainsAudioProcessor	typeref:typename:bool
+initPool	Grains.cpp	/^void GrainPool::initPool(juce::AudioSampleBuffer& grainBuf, int bufferSize)$/;"	f	class:GrainPool	typeref:typename:void
+initPool	copy/Grains.cpp	/^void GrainPool::initPool(float* buf, int bufferSize)$/;"	f	class:GrainPool	typeref:typename:void
+insert	Grains.h	/^	void insert(int position, int endingSample, uint8_t settings)$/;"	f	struct:GrainQueue	typeref:typename:void
+interonset	Grains.h	/^	int interonset;$/;"	m	struct:GrainScheduler	typeref:typename:int
+interonset	PluginEditor.h	/^	GrainAmount interonset;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:GrainAmount
+interonset	copy/Grains.h	/^	int interonset;$/;"	m	struct:GrainScheduler	typeref:typename:int
+interonsetAtt	PluginEditor.h	/^	std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment> interonsetAtt;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:std::unique_ptr<juce::AudioProcessorValueTreeState::SliderAttachment>
+interonsetPtr	Grains.h	/^	juce::AudioParameterInt* interonsetPtr;$/;"	m	struct:GrainScheduler	typeref:typename:juce::AudioParameterInt *
+isBusesLayoutSupported	PluginProcessor.cpp	/^bool GrainsAudioProcessor::isBusesLayoutSupported (const BusesLayout& layouts) const$/;"	f	class:GrainsAudioProcessor	typeref:typename:bool
+isMidiEffect	PluginProcessor.cpp	/^bool GrainsAudioProcessor::isMidiEffect() const$/;"	f	class:GrainsAudioProcessor	typeref:typename:bool
+lastActive	Grains.h	/^	int lastActive;$/;"	m	struct:GrainQueue	typeref:typename:int
+lastMaxInteronset	Grains.h	/^	int lastMaxInteronset;$/;"	m	struct:GrainScheduler	typeref:typename:int
+lastMinInteronset	Grains.h	/^	int lastMinInteronset;$/;"	m	struct:GrainScheduler	typeref:typename:int
+lastWindow	Grains.h	/^	float lastWindow;$/;"	m	struct:GrainPool	typeref:typename:float
+layout	Grains.h	/^	juce::AudioProcessorValueTreeState::ParameterLayout& layout;$/;"	m	struct:ParameterMaker	typeref:typename:juce::AudioProcessorValueTreeState::ParameterLayout &
+loaded	shared.h	/^	juce::Atomic<bool> loaded = false;$/;"	m	struct:SharedFileBuffer	typeref:typename:juce::Atomic<bool>
+location	copy/Grains.h	/^	float* location = nullptr;$/;"	m	struct:Grain	typeref:typename:float *
+makeLayout	PluginProcessor.cpp	/^juce::AudioProcessorValueTreeState::ParameterLayout GrainsAudioProcessor::makeLayout()$/;"	f	class:GrainsAudioProcessor	typeref:typename:juce::AudioProcessorValueTreeState::ParameterLayout
+mapPositionToSample	FileSection.cpp	/^int FileView::mapPositionToSample(int x)$/;"	f	class:FileView	typeref:typename:int
+maxInteronset	copy/Grains.h	/^	int maxInteronset = 800;$/;"	m	struct:GrainScheduler	typeref:typename:int
+maxSample	Grains.h	/^	int maxSample;$/;"	m	struct:Grain	typeref:typename:int
+minInteronset	copy/Grains.h	/^	int minInteronset = 320;$/;"	m	struct:GrainScheduler	typeref:typename:int
+mouseDown	FileSection.cpp	/^void FileView::mouseDown(const juce::MouseEvent& event)$/;"	f	class:FileView	typeref:typename:void
+mouseDown	FileSection.cpp	/^void RangeHandle::mouseDown(const juce::MouseEvent& event)$/;"	f	class:RangeHandle	typeref:typename:void
+mouseDrag	FileSection.cpp	/^void FileView::mouseDrag(const juce::MouseEvent& event)$/;"	f	class:FileView	typeref:typename:void
+mouseDrag	FileSection.cpp	/^void RangeHandle::mouseDrag(const juce::MouseEvent& event)$/;"	f	class:RangeHandle	typeref:typename:void
+mouseUp	FileSection.cpp	/^void FileView::mouseUp(const juce::MouseEvent& event)$/;"	f	class:FileView	typeref:typename:void
+mouseUp	FileSection.cpp	/^void RangeHandle::mouseUp(const juce::MouseEvent& event)$/;"	f	class:RangeHandle	typeref:typename:void
+newFile	shared.h	/^	juce::Atomic<bool> newFile = false;$/;"	m	struct:SharedFileBuffer	typeref:typename:juce::Atomic<bool>
+nextOnset	copy/Grains.h	/^	int nextOnset = 1;$/;"	m	struct:GrainScheduler	typeref:typename:int
+nextOnsets	Grains.h	/^	std::vector<int> nextOnsets;$/;"	m	struct:GrainScheduler	typeref:typename:std::vector<int>
+none	Grains.h	/^	none = 0,$/;"	e	enum:GrainProperties
+original	PluginEditor.h	/^	juce::ToggleButton original;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:juce::ToggleButton
+originalAtt	PluginEditor.h	/^	std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> originalAtt;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment>
+paint	FileSection.cpp	/^void FileView::paint(juce::Graphics &g)$/;"	f	class:FileView	typeref:typename:void
+paint	FileSection.cpp	/^void RangeHandle::paint(juce::Graphics& g)$/;"	f	class:RangeHandle	typeref:typename:void
+paint	PluginEditor.cpp	/^void GrainsAudioProcessorEditor::paint (juce::Graphics& g)$/;"	f	class:GrainsAudioProcessorEditor	typeref:typename:void
+params	Grains.h	/^	std::vector<std::unique_ptr<juce::RangedAudioParameter>> params;$/;"	m	struct:ParameterMaker	typeref:typename:std::vector<std::unique_ptr<juce::RangedAudioParameter>>
+pool	PluginProcessor.h	/^	GrainPool pool;$/;"	m	class:GrainsAudioProcessor	typeref:typename:GrainPool
+pos	Grains.h	/^	int pos;$/;"	m	struct:Grain	typeref:typename:int
+pos	copy/Grains.h	/^	int pos;$/;"	m	struct:Grain	typeref:typename:int
+position	shared.h	/^	int position;$/;"	m	struct:SharedFileBuffer	typeref:typename:int
+prepareToPlay	PluginProcessor.cpp	/^void GrainsAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)$/;"	f	class:GrainsAudioProcessor	typeref:typename:void
+processBlock	PluginProcessor.cpp	/^void GrainsAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midi/;"	f	class:GrainsAudioProcessor	typeref:typename:void
+producesMidi	PluginProcessor.cpp	/^bool GrainsAudioProcessor::producesMidi() const$/;"	f	class:GrainsAudioProcessor	typeref:typename:bool
+properties	Grains.h	/^	uint8_t properties;$/;"	m	struct:Grain	typeref:typename:uint8_t
+rand	Grains.h	/^	juce::Random rand;$/;"	m	struct:GrainScheduler	typeref:typename:juce::Random
+rand	copy/Grains.h	/^	juce::Random rand;$/;"	m	struct:GrainScheduler	typeref:typename:juce::Random
+randomAtt	PluginEditor.h	/^	std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment> randomAtt;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:std::unique_ptr<juce::AudioProcessorValueTreeState::ButtonAttachment>
+randomScheduling	PluginEditor.h	/^	juce::ToggleButton randomScheduling;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:juce::ToggleButton
+range	FileSection.h	/^		juce::NormalisableRange<float> range;$/;"	m	struct:RangeHandle::grabContext	typeref:typename:juce::NormalisableRange<float>
+rangeChanged	FileSection.h	/^	bool rangeChanged = true;$/;"	m	class:FileView	typeref:typename:bool
+rangeEnd	Grains.h	/^	juce::AudioParameterInt* rangeEnd;$/;"	m	struct:GrainPool	typeref:typename:juce::AudioParameterInt *
+rangeStart	Grains.h	/^	juce::AudioParameterInt* rangeStart;$/;"	m	struct:GrainPool	typeref:typename:juce::AudioParameterInt *
+relativeX	FileSection.h	/^		float relativeX;$/;"	m	struct:RangeHandle::grabContext	typeref:typename:float
+releaseResources	PluginProcessor.cpp	/^void GrainsAudioProcessor::releaseResources()$/;"	f	class:GrainsAudioProcessor	typeref:typename:void
+reset	Grains.h	/^	void reset()$/;"	f	struct:GrainQueue	typeref:typename:void
+resized	FileSection.cpp	/^void FileView::resized()$/;"	f	class:FileView	typeref:typename:void
+resized	FileSection.cpp	/^void RangeHandle::resized()$/;"	f	class:RangeHandle	typeref:typename:void
+resized	PluginEditor.cpp	/^void GrainsAudioProcessorEditor::resized()$/;"	f	class:GrainsAudioProcessorEditor	typeref:typename:void
+reverse	Grains.h	/^	reverse = 2$/;"	e	enum:GrainProperties
+sampleRate	Grains.h	/^	double sampleRate;$/;"	m	struct:GrainPool	typeref:typename:double
+sampleRate	copy/Grains.h	/^	double sampleRate;$/;"	m	struct:GrainPool	typeref:typename:double
+sampleRate	shared.h	/^	double sampleRate;$/;"	m	struct:SharedFileBuffer	typeref:typename:double
+samplesPerWindow	FileSection.h	/^	int samplesPerWindow = 50;$/;"	m	class:FileView	typeref:typename:int
+scheduleRandom	Grains.h	/^	juce::AudioParameterBool* scheduleRandom;$/;"	m	struct:GrainScheduler	typeref:typename:juce::AudioParameterBool *
+scheduler	PluginProcessor.h	/^	GrainScheduler scheduler;$/;"	m	class:GrainsAudioProcessor	typeref:typename:GrainScheduler
+setCurrentProgram	PluginProcessor.cpp	/^void GrainsAudioProcessor::setCurrentProgram (int index)$/;"	f	class:GrainsAudioProcessor	typeref:typename:void
+setParamters	Grains.cpp	/^void GrainPool::setParamters(juce::AudioProcessorValueTreeState::ParameterLayout& layout)$/;"	f	class:GrainPool	typeref:typename:void
+setStateInformation	PluginProcessor.cpp	/^void GrainsAudioProcessor::setStateInformation (const void* data, int sizeInBytes)$/;"	f	class:GrainsAudioProcessor	typeref:typename:void
+setup	Grains.cpp	/^int GrainPool::setup(int bufferSize)$/;"	f	class:GrainPool	typeref:typename:int
+setup	Grains.cpp	/^void GrainPool::setup(juce::AudioSampleBuffer *localBuffer, int bufferSize)$/;"	f	class:GrainPool	typeref:typename:void
+setup	Grains.cpp	/^void GrainScheduler::setup(juce::AudioProcessorValueTreeState::ParameterLayout& layout)$/;"	f	class:GrainScheduler	typeref:typename:void
+setup	copy/Grains.cpp	/^float GrainPool::setup(int bufferSize)$/;"	f	class:GrainPool	typeref:typename:float
+size	Grains.h	/^	int size;$/;"	m	struct:Grain	typeref:typename:int
+size	copy/Grains.h	/^	int size;$/;"	m	struct:Grain	typeref:typename:int
+start	Grains.h	/^	int start = 0;$/;"	m	struct:GrainPool	typeref:typename:int
+startAtt	FileSection.h	/^	juce::ParameterAttachment startAtt;$/;"	m	struct:RangeHandle	typeref:typename:juce::ParameterAttachment
+startingGrain	Grains.h	/^	int startingGrain = 0;$/;"	m	struct:GrainPool	typeref:typename:int
+startingSample	Grains.h	/^	int startingSample = 0;$/;"	m	struct:GrainPool	typeref:typename:int
+sumGrains	Grains.cpp	/^float GrainPool::sumGrains(int channel)$/;"	f	class:GrainPool	typeref:typename:float
+sumGrains	copy/Grains.cpp	/^float GrainPool::sumGrains()$/;"	f	class:GrainPool	typeref:typename:float
+synthesize	Grains.cpp	/^float GrainScheduler::synthesize(GrainPool& pool, int channel)$/;"	f	class:GrainScheduler	typeref:typename:float
+synthesize	copy/Grains.cpp	/^float GrainScheduler::synthesize(GrainPool& pool)$/;"	f	class:GrainScheduler	typeref:typename:float
+vts	PluginProcessor.h	/^	juce::AudioProcessorValueTreeState vts;$/;"	m	class:GrainsAudioProcessor	typeref:typename:juce::AudioProcessorValueTreeState
+vtsRef	PluginEditor.h	/^	juce::AudioProcessorValueTreeState& vtsRef;$/;"	m	class:GrainsAudioProcessorEditor	typeref:typename:juce::AudioProcessorValueTreeState &
+~GrainsAudioProcessor	PluginProcessor.cpp	/^GrainsAudioProcessor::~GrainsAudioProcessor()$/;"	f	class:GrainsAudioProcessor
+~GrainsAudioProcessorEditor	PluginEditor.cpp	/^GrainsAudioProcessorEditor::~GrainsAudioProcessorEditor()$/;"	f	class:GrainsAudioProcessorEditor
+~ParameterMaker	Grains.h	/^	~ParameterMaker() { layout.add(params.begin(), params.end()); }$/;"	f	struct:ParameterMaker
