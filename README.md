@@ -6,5 +6,5 @@ Based on Ross Bencina's [article](http://www.rossbencina.com/static/code/granula
 Example(song attributed to Radiohead):
 [![IMAGE ALT TEXT HERE](https://i.imgur.com/mbE4qM7.png)](https://vimeo.com/623341294)
 
-## How to try it out?
+## Want to try it out?
 To try out the plugin, copy the .vst3 file located at the root of the repo into the plugin folder of your favorite DAW. 
